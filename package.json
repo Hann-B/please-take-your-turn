@@ -5,9 +5,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-prod": "ng build --configuration production --base-href https://hann-b.github.io/please-take-your-turn/",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ngh --dir=dist/please-take-your-turn"
   },
   "private": true,
   "dependencies": {
